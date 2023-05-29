@@ -1,0 +1,69 @@
+body {
+    padding-top: 20px;
+}
+
+.cocktails-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cocktails-child {
+    margin-left: 40%;
+}
+
+.cocktails-child h3 {
+    margin: 0 0 50px 100px;
+}
+
+.info {
+    padding: 5px;
+    background: cornsilk;
+    margin-bottom: 10px;
+}
+
+.router-href {
+    margin-left: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: green;
+}
+
+.router-href.active {
+    color: red;
+}
+
+.nav-link {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: right;
+
+}
+
+.inp {
+    display: inline;
+    margin-top: 30px;
+    margin-left: 15%;
+    padding: 5px 40px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+}
+
+.back-link {
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 30px 0 0 46%;
+    background: dodgerblue;
+    color: white;
+}
+
+.back-link:hover {
+    transition: 1.5s;
+    background: red;
+}
+
